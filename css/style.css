@@ -1,0 +1,272 @@
+/* PAGE */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 600;
+	font-family: "Poppins", sans-serif;
+	background-color: #1d1e20;
+	color: #00D1D3;
+	overflow-x: hidden !important;
+}
+
+.header .navbar .language .dsix span {
+	color: #19233b;
+	font-weight: 400;
+   }
+   .particles{
+	position: absolute;;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	/* z-index: -1; */
+   }
+
+.btn-default-style {
+	background: #00D1D3;
+	border-radius: 50px;
+	color: #00D1D3;
+	height: 55px;
+	line-height: 55px;
+	padding: 0 50px;
+	font-size: 14px;
+	margin-top: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+	position: relative;
+}
+
+/* .btn-default-style:hover {
+	color: #ffffff;
+}
+.gradient-color span {
+	background-image: linear-gradient(to bottom, #9982ed 0%, #f879b6 100%);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+} */
+
+#particles-js {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+.language {
+    position: relative;
+    width: 120px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.language-selected {
+    display: flex;   
+    align-items: center;
+    color: #00D1D3;
+    cursor: pointer;
+}
+.language-selected:before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    /* background-image: url(https://www.countryflags.io/br/flat/32.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+/* .language-selected.change-br:before {
+    background-image: url(https://www.countryflags.io/br/flat/32.png);
+}
+.language-selected.change-en:before {
+    background-image: url(https://www.countryflags.io/us/flat/32.png);
+}
+.language-selected.change-es:before {
+    background-image: url(https://www.countryflags.io/es/flat/32.png);
+} */
+
+.language ul {
+    position: absolute;
+    width: 140px;
+    padding-top: 10px;
+    display: none;
+}
+
+.language ul li {
+    list-style: none;
+}
+
+.language ul li a {
+    display: block;
+    color: #00D1D3;
+    padding: 5px 10px;
+}
+
+.language ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* a.br:before {
+    background-image: url(https://www.countryflags.io/br/flat/32.png);
+}
+
+a.en:before {
+    background-image: url(https://www.countryflags.io/us/flat/32.png);
+}
+a.es:before {
+    background-image: url(https://www.countryflags.io/es/flat/32.png);
+} */
+
+.language:hover ul {
+    display: block;
+}
+
+/*=========={
+ Header Section 
+}
+==============*/
+
+
+.header .intro-text {
+	margin-top: 180px;
+
+	padding-right: 70px;
+}
+
+/* .header .intro-text .intro_btn_3 {
+	background: transparent;
+	border: 2px solid #fe9a8b;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+	margin-right: 15px;
+} BOTÃO */
+
+/* .header .intro-text .intro_btn_3:hover {
+	border: 2px solid #fe9a8b;
+	background: linear-gradient(to right, #f78ca0, #fe9a8b);
+} */
+
+/*====================== {
+navbar
+========================*/
+
+#header-05 {
+	background: none;
+	background-size: cover;
+	position: relative;  /* particles full screen */
+	z-index: 99;
+	height: auto;
+}
+#header-05 .navbar .navbar-nav .nav-item {
+	margin-right: 30px;
+}
+#header-05 .navbar .navbar-nav .nav-item .nav-link {
+	padding: 40px 90px;
+	color: #00D1D3;
+	font-size: 18px;
+	text-transform: none;
+}
+#header-05 .navbar .navbar-nav .nav-item .nav-link.active,
+#header-05 .navbar .navbar-nav .nav-item .nav-link:hover {
+	color: #00D1D3;
+}
+#header-05 .navbar .navbar-nav .nav-item .nav-link.active {
+	font-weight: 600;
+}
+
+
+
+/* .header .img-wrapper .intro-img {
+	margin-top: 20%;
+	margin-left: -20%;
+} */
+
+/* left container */
+
+#header-05 .intro-text {
+	margin-top: 190px;
+	/* text-align: center; */
+	margin-bottom: 140px;
+	
+}
+
+#header-05 .intro-text h1 {
+	font-size: 55px;
+	font-weight: 900;
+	line-height: 70px;
+	color: #00D1D3;
+	margin-right: 180px;
+	margin-bottom: -40px;
+
+}
+
+#header-05 .intro-text p {
+	text-align: left;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 30px;
+	font-weight: 400;
+	padding-right: 0px;
+	color: #00D1D3;
+	max-width: 70%;
+	margin: 50px 0;
+}
+#header-05 .intro-text a {
+	background: #19233b;
+	color: #00D1D3;
+	font-weight: 600;
+	font-size: 18px;
+	margin-top: 0;
+	padding: 0 40px;
+	text-transform: capitalize;
+	transition: all 0.3s ease-in-out;
+}
+
+/*---------- Company logos-------*/
+
+#companis_logos_04 {
+	/* rgba(36, 69, 120, 0); */
+	background: linear-gradient(to bottom, #4e10d300 0%, #2c095c00 100%);
+	padding: 100px 0;
+}
+#companis_logos_04 .sub-title h2 {
+	font-size: 40px;
+	font-weight: 600;
+}
+#companis_logos_04 ul {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+#companis_logos_04 ul:last-child {
+	justify-content: center;
+	margin-bottom: 0;
+}
+#companis_logos_04 ul li {
+	width: 20%;
+	list-style: none;
+}
+#companis_logos_04 ul li img {
+	display: flex;
+	height: auto;
+	width: 70%;
+	margin: 0 auto;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
